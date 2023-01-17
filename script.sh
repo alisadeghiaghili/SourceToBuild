@@ -9,6 +9,8 @@ echo $version
 echo "Press 1 to continue or 0 to exit"
 read versioncontinue
 
+mkdir build
+
 if [ $versioncontinue -eq 1 ]
   then 
     for file in source/*
